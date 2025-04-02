@@ -6,20 +6,20 @@
     <parent>
         <groupId>io.github.zhuto666</groupId>
         <artifactId>job-spring-boot-starter-parent</artifactId>
-        <version>1.0.0</version>
+        <version>1.0.1</version>
     </parent>
 
     <artifactId>job-spring-boot-autoconfigure</artifactId>
     <name>job-spring-boot-autoconfigure</name>
     <description>job-spring-boot-autoconfigure</description>
-    <url>https://github.com/zhuto666/job-spring-boot-autoconfigure</url>
-    <version>1.0.0</version>
+    <url>https://github.com/zhuto666/maven-repository</url>
+    <version>1.0.1</version>
 
     <dependencies>
         <dependency>
             <groupId>io.github.zhuto666</groupId>
             <artifactId>job-spring-boot-core</artifactId>
-            <version>1.0.0</version>
+            <version>1.0.1</version>
         </dependency>
     </dependencies>
 
@@ -36,9 +36,9 @@
     </developers>
 
     <scm>
-        <connection>scm:git:git://git@github.com:zhuto666/starter.git</connection>
-        <developerConnection>scm:git:ssh://git@github.com:zhuto666/starter.git</developerConnection>
-        <url>https://github.com/zhuto666/starter</url>
+        <connection>scm:git:ssh://git@github.com:zhuto666/maven-repository.git</connection>
+        <developerConnection>scm:git:ssh://git@github.com:zhuto666/maven-repository.git</developerConnection>
+        <url>https://github.com/zhuto666/maven-repository</url>
     </scm>
 
     <licenses>
@@ -49,6 +49,7 @@
     </licenses>
 
     <build>
+        <finalName>job-spring-boot-autoconfigure</finalName>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>

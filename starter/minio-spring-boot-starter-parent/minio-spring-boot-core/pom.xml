@@ -7,14 +7,14 @@
     <parent>
         <groupId>io.github.zhuto666</groupId>
         <artifactId>minio-spring-boot-starter-parent</artifactId>
-        <version>1.0.0</version>
+        <version>1.0.1</version>
     </parent>
 
     <artifactId>minio-spring-boot-core</artifactId>
     <name>minio-spring-boot-core</name>
     <description>minio-spring-boot-core</description>
-    <url>https://github.com/zhuto666/minio-spring-boot-core</url>
-    <version>1.0.0</version>
+    <url>https://github.com/zhuto666/maven-repository</url>
+    <version>1.0.1</version>
 
     <dependencies>
         <dependency>
@@ -47,9 +47,9 @@
     </developers>
 
     <scm>
-        <connection>scm:git:git://git@github.com:zhuto666/starter.git</connection>
-        <developerConnection>scm:git:ssh://git@github.com:zhuto666/starter.git</developerConnection>
-        <url>https://github.com/zhuto666/starter</url>
+        <connection>scm:git:ssh://git@github.com:zhuto666/maven-repository.git</connection>
+        <developerConnection>scm:git:ssh://git@github.com:zhuto666/maven-repository.git</developerConnection>
+        <url>https://github.com/zhuto666/maven-repository</url>
     </scm>
 
     <licenses>
@@ -60,6 +60,7 @@
     </licenses>
 
     <build>
+        <finalName>minio-spring-boot-core</finalName>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>

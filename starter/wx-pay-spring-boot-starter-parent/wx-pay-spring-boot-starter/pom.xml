@@ -6,19 +6,19 @@
     <parent>
         <groupId>io.github.zhuto666</groupId>
         <artifactId>wx-pay-spring-boot-starter-parent</artifactId>
-        <version>1.0.0</version>
+        <version>1.0.1</version>
     </parent>
 
     <artifactId>wx-pay-spring-boot-starter</artifactId>
     <name>wx-pay-spring-boot-starter</name>
     <description>wx-pay-spring-boot-starter</description>
-    <url>https://github.com/zhuto666/wx-pay-spring-boot-starter</url>
+    <url>https://github.com/zhuto666/maven-repository</url>
 
     <dependencies>
         <dependency>
             <groupId>io.github.zhuto666</groupId>
             <artifactId>wx-pay-spring-boot-autoconfigure</artifactId>
-            <version>1.0.0</version>
+            <version>1.0.1</version>
         </dependency>
     </dependencies>
 
@@ -35,9 +35,9 @@
     </developers>
 
     <scm>
-        <connection>scm:git:git://git@github.com:zhuto666/starter.git</connection>
-        <developerConnection>scm:git:ssh://git@github.com:zhuto666/starter.git</developerConnection>
-        <url>https://github.com/zhuto666/starter</url>
+        <connection>scm:git:ssh://git@github.com:zhuto666/maven-repository.git</connection>
+        <developerConnection>scm:git:ssh://git@github.com:zhuto666/maven-repository.git</developerConnection>
+        <url>https://github.com/zhuto666/maven-repository</url>
     </scm>
 
     <licenses>
@@ -48,6 +48,7 @@
     </licenses>
 
     <build>
+        <finalName>wx-pay-spring-boot-starter</finalName>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>

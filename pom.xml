@@ -10,7 +10,7 @@
         <module>starter</module>
     </modules>
 
-    <version>1.0.0</version>
+    <version>1.0.1</version>
     <name>maven-repository</name>
     <url>https://github.com/zhuto666/maven-repository</url>
     <description>maven-repository</description>
